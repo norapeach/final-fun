@@ -1,13 +1,14 @@
 
 /**
  * LinkedIntList.java
- * @version 6/12/20
+ * @version 6/16/20
  */
 
 import java.util.NoSuchElementException;
 
 /**
  * Represents a LinkedIntList data structure to to store a list of integers.
+ * 
  * @see http://www.buildingjavaprograms.com/code-files/5ed/ch16/LinkedIntList2.java
  */
 public class LinkedIntList implements IntList {
@@ -38,8 +39,8 @@ public class LinkedIntList implements IntList {
 				if (nextData == consec) { // pre: nextData is the next consecutive integer in sequence
 					twoConsec = true;
 					System.out.println("Consecutive pair found: [" + current.data + ", " + current.next.data + "]");
-					// Commented out to show consecutive pairs 
-					// return twoConsec; 
+					// Commented out to show consecutive pairs
+					// return twoConsec;
 					current = current.next;
 				} else {
 					// not a consecutive pair, get the next Node to test
@@ -77,6 +78,7 @@ public class LinkedIntList implements IntList {
 
 	/**
 	 * BJP5 Exercise 16.2: min
+	 * 
 	 * @author Nora P.
 	 * @return The minimum value in a list of integers
 	 * @throws NoSuchElementException if the list is empty
@@ -119,9 +121,9 @@ public class LinkedIntList implements IntList {
 	}
 
 	/**
-	 * BJP5 Exercise 16.1: set method 
-	 * pre: 0 <= index < () post: sets the list's element at given index to have the
-	 * given value
+	 * BJP5 Exercise 16.1: set method pre: 0 <= index < () post: sets the list's
+	 * element at given index to have the given value
+	 * 
 	 * @param index The location of the node data value to be set
 	 * @param value The value to be set at the given index
 	 * @author Nora P.
@@ -214,6 +216,7 @@ public class LinkedIntList implements IntList {
 	@Override
 	/**
 	 * returns the current number of elements in the list
+	 * 
 	 * @author BJP5e
 	 */
 	public int size() {
