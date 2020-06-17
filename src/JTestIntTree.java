@@ -1,11 +1,12 @@
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.function.Executable;
 
-/**
- * 
- */
+/*****************************************************************
+// ITC155 - Final - Problem 3 - JUnit Tests
+// IntTree: isFull method
+******************************************************************/
+
 
 /**
  * @author Nora P.

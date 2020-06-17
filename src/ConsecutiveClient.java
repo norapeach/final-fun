@@ -3,6 +3,7 @@
  */
 
 /***************************************************************************
+ * ITC155 - Final - Problem 2
  * BJP5 Exercise 16.6: Method hasTwoConsecutive 
  * FIRST METHOD defined after constructor in LinkedIntList.java
  * JUnit test: TODO

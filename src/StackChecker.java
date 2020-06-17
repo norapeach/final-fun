@@ -5,12 +5,14 @@ import java.util.Stack;
  */
 
 /***************************************************************************
+ * ITC155 - Final - Problem 1
  * BJP5 Exercise 14.5: Method equals 
  * 
  * The equals method accepts two Stacks of integers as parameters and returns
  * a boolean value - true if both the Stack size and sequence of values is
  * identical. False otherwise. Both stacks must be returned to their original 
  * state before the return statement. One Stack as auxiliary storage.
+ * TODO: Junit test
  **************************************************************************/
 /**
  * @author Nora P.
