@@ -13,9 +13,9 @@
  * http://www.buildingjavaprograms.com/code-files/5ed/ch16/LinkedInt.java
  **************************************************************************/
 /**
- * This program tests the isSorted method on a list to determine if the list is
- * sorted (nondecreasing order). This implementation considers an empty list as
- * sorted.
+ * This program tests the hasTwoConsecutive method on a list to determine if
+ * the list contains two consecutive values in sequence. This version returns
+ * ALL pairs of consecutive integers instead of returning the first match.
  * 
  * @author Nora P.
  * @version 06/16/20
